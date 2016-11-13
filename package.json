@@ -1,0 +1,50 @@
+{
+  "name": "xbox-ctrl-tray",
+  "version": "0.0.0",
+  "description": "tray application to control xbox controllers",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "electron .",
+    "test": "npm run lint",
+    "lint": "run-p lint-*",
+    "lint-lib": "eslint lib --fix",
+    "precommit": "lint-staged",
+    "commitmsg": "validate-commit-msg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noamokman/xbox-ctrl-tray.git"
+  },
+  "keywords": [
+    "xbox",
+    "xctrl",
+    "controller",
+    "tray",
+    "electron"
+  ],
+  "author": {
+    "name": "Noam Okman",
+    "email": "noamokman@gmail.com",
+    "url": "https://github.com/noamokman"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noamokman/xbox-ctrl-tray/issues"
+  },
+  "homepage": "https://github.com/noamokman/xbox-ctrl-tray#readme",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^1.4.4",
+    "eslint": "^3.8.1",
+    "eslint-config-noamokman": "^5.0.1",
+    "husky": "^0.11.9",
+    "lint-staged": "^3.2.0",
+    "npm-run-all": "^3.1.1",
+    "validate-commit-msg": "^2.8.2"
+  }
+}
