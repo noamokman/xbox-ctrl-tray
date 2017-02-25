@@ -11,7 +11,8 @@
     "precommit": "lint-staged",
     "commitmsg": "validate-commit-msg",
     "watch": "nodemon --exec \"npm run dev\" --watch lib",
-    "rebuild": "electron-rebuild -f -w xbox-ctrl"
+    "native-rebuild": "electron-rebuild -f -w xbox-ctrl",
+    "postinstall": "npm run native-rebuild"
   },
   "repository": {
     "type": "git",
