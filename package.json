@@ -41,15 +41,15 @@
     ]
   },
   "devDependencies": {
-    "electron": "^1.4.13",
-    "electron-rebuild": "^1.4.0",
-    "eslint": "^3.12.2",
-    "eslint-config-noamokman": "^5.0.1",
-    "husky": "^0.12.0",
-    "lint-staged": "^3.2.4",
+    "electron": "^1.4.15",
+    "electron-rebuild": "^1.5.7",
+    "eslint": "^3.16.1",
+    "eslint-config-noamokman": "^5.2.0",
+    "husky": "^0.13.1",
+    "lint-staged": "^3.3.1",
     "nodemon": "^1.11.0",
-    "npm-run-all": "^3.1.2",
-    "validate-commit-msg": "^2.8.2"
+    "npm-run-all": "^4.0.2",
+    "validate-commit-msg": "^2.11.1"
   },
   "dependencies": {
     "auto-launch": "^5.0.1",
