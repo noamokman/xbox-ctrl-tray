@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "auto-launch": "^5.0.1",
+    "noop3": "^13.8.1",
     "opn": "^4.0.2",
     "xbox-ctrl": "^1.2.3"
   }
