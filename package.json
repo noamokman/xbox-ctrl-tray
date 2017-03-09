@@ -11,8 +11,8 @@
     "precommit": "lint-staged",
     "commitmsg": "validate-commit-msg",
     "watch": "nodemon --exec \"npm run dev\" --watch lib",
-    "native-rebuild": "electron-rebuild -f -w xbox-ctrl",
-    "postinstall": "npm run native-rebuild"
+    "postinstall": "install-app-deps",
+    "package": "build --win --x64"
   },
   "repository": {
     "type": "git",
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "electron": "^1.4.15",
-    "electron-rebuild": "^1.5.7",
+    "electron-builder": "^14.5.3",
     "eslint": "^3.16.1",
     "eslint-config-noamokman": "^5.2.0",
     "husky": "^0.13.1",
@@ -57,5 +57,9 @@
     "noop3": "^13.8.1",
     "opn": "^4.0.2",
     "xbox-ctrl": "^1.2.3"
+  },
+  "build": {
+    "appId": "com.noamokman.xbox-ctrl",
+    "productName": "xbox-ctrl"
   }
 }
