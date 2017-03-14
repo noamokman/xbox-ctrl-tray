@@ -43,20 +43,21 @@
     ]
   },
   "devDependencies": {
-    "electron": "^1.4.15",
-    "electron-builder": "^14.5.3",
-    "eslint": "^3.16.1",
+    "electron": "^1.6.2",
+    "electron-builder": "^15.4.3",
+    "eslint": "^3.17.1",
     "eslint-config-noamokman": "^5.2.0",
-    "husky": "^0.13.1",
-    "lint-staged": "^3.3.1",
+    "husky": "^0.13.2",
+    "lint-staged": "^3.4.0",
     "nodemon": "^1.11.0",
     "npm-run-all": "^4.0.2",
-    "validate-commit-msg": "^2.11.1"
+    "validate-commit-msg": "^2.11.2"
   },
   "dependencies": {
     "auto-launch": "^5.0.1",
-    "electron-updater": "^1.8.3",
-    "noop3": "^13.8.1",
+    "electron-is-dev": "^0.1.2",
+    "electron-updater": "^1.9.0",
+    "noop3": "^999.999.999",
     "opn": "^4.0.2",
     "xbox-ctrl": "^1.2.3"
   },
