@@ -1,6 +1,6 @@
 {
   "name": "xbox-ctrl-tray",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "tray application to control xbox controllers",
   "main": "lib/index.js",
   "scripts": {
