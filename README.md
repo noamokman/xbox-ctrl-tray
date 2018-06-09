@@ -13,6 +13,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/noamokman/xbox-ctrl-tray.svg)](https://greenkeeper.io/)
+
 Download the latest version of xbox-ctrl-tray from the
 [GitHub releases](https://github.com/noamokman/xbox-ctrl-tray/releases) page.
 
